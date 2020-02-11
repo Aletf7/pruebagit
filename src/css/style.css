@@ -1,0 +1,55 @@
+@font-face {
+  src: local("/assets/rolling out/RollingOut.ttf");
+  font-family: RollingOut;
+  font-family: RollingOut-Swashes;
+}
+
+body {
+  background: rgb(230, 227, 226);
+}
+
+.album {
+  background: rgb(121, 119, 119);
+  box-shadow: -84px 74px 5px rgba(0, 0, 0, 0.75);
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+  left: 325px;
+}
+
+.portada {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://www.buenamusica.com/media/fotos/discos/n/nickelback/nickelback_lullaby.jpg);
+}
+
+.vinilo {
+  background: black;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 74px 5px rgba(0, 0, 0, 0.52);
+}
+
+.etiqueta {
+  background: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centro {
+  background: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 6px 41px 88px rgba(0, 0, 0, 0.52);
+}
