@@ -53,3 +53,8 @@ body {
   border-radius: 50%;
   box-shadow: 6px 41px 88px rgba(0, 0, 0, 0.52);
 }
+.caja {
+  background: red;
+  width: 80px;
+  height: 90px;
+}
